@@ -1,25 +1,6 @@
 import requests
 import json
 
-
-# title = None
-# authors = None
-# json_data = {}
-
-# json_data['email'] = "mayank.7967@gmail.com"
-# json_data['title'] = "Mortals"
-
-
-# # response = requests.post('http://localhost:8000/storeBooks', json = json_data).content
-# # # response_json = json.loads(response)
-# # print(response)
-
-# response = requests.get('http://localhost:8000/getBooks?author=Rumi').content.decode('utf-8')
-
-# # response = requests.post('http://localhost:8000/returnBook', json=json_data).content
-# print(response)
-
-
 option = int(input('Enter a number\n 1. To store Books\n 2.Get Books by author & title\n 3. Register new Members\n 4. Issue Books\n 5. Return Book\n 6. Check Members\n 7. Delete Members\n 8. Delete Books\n'))
 
 
